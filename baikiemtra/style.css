@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e3c1ef;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #c3dffc;
+    padding: 15px 0;
+    color: rgb(28, 43, 83);
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .navbar-nav a {
+    color: rgb(33, 48, 114);
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+.navbar .navbar-nav a:hover {
+    color: #0e2f1d;
+}
+
+.container {
+    width: 50%;
+    margin: 50px auto; /* Đưa form vào giữa trang */
+    background-color: #fff; /* Màu nền trắng */
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd; /* Border xung quanh form */
+}
+h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: #343a40;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    color: rgb(44, 46, 157);
+    background-color: #51a3e2;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.btn:hover {
+    background-color: #218838;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.table th, .table td {
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #0c0c0c;
+    vertical-align: middle;
+}
+
+.table th {
+    background-color: #f8f9fa;
+    font-weight: bold;
+}
+
+.btn-edit, .btn-info, .btn-delete {
+    padding: 5px 10px;
+    margin: 2px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-edit {
+    background-color: #007bff;
+    color: white;
+}
+
+.btn-edit:hover {
+    background-color: #0056b3;
+}
+
+.btn-info {
+    background-color: #17a2b8;
+    color: white;
+}
+
+.btn-info:hover {
+    background-color: #117a8b;
+}
+
+.btn-delete {
+    background-color: #dc3545;
+    color: white;
+}
+
+.btn-delete:hover {
+    background-color: #c82333;
+}
+
+.student-image {
+    max-width: 100px;
+    height: auto;
+    border-radius: 5px;
+}
